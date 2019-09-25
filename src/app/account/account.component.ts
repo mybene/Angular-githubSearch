@@ -11,7 +11,7 @@ import { Account } from '../account';
 })
 export class AccountComponent implements OnInit {
 
-  // users:User;
+
   acc:Account;
 
   constructor(private userService:AccountService,private http:HttpClient) { }
