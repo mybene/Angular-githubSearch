@@ -9,7 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AccountComponent } from './account/account.component';
 import { InputComponent } from './input/input.component';
-import { HighligthedDirective } from './highligthed.directive';
+// import { HighligthedDirective } from './highligthed.directive';
 import { DateCountPipe } from './date-count.pipe';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -19,7 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
     AccountComponent,
     InputComponent,
     // AccountService,
-    HighligthedDirective,
+    // HighligthedDirective,
     DateCountPipe 
   ],
   imports: [
@@ -28,7 +28,7 @@ import { HttpClientModule } from '@angular/common/http';
     NgProgressModule.forRoot(),
     NgProgressHttpClientModule,
     FormsModule,
-    HttpClientModule
+    // HttpClientModule
     
   ],
   providers: [],
