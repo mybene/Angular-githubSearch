@@ -5,7 +5,7 @@ By Manishimwe Benedicte
 
 This project was generated with Angular CLI version 8.2.2
  
- Thus project is angular for search any account on githuib by input it username.
+This IP is for searching a person's account on github where you could see the her/his repositories,all view profile
 ## User requirements
 The User must have:
 * OS Ubuntu
