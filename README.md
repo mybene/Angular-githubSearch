@@ -1,4 +1,4 @@
-# GithubSearch
+# angular-GithubSearch
 By Manishimwe Benedicte
 
 ## Descritpion
