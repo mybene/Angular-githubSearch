@@ -1,0 +1,40 @@
+table,th,td{
+    border:1px solid black;
+    border-collapse:collapse;
+}
+td,th{
+    padding:10px;
+}
+table{
+    width:90%;
+    margin-left:20px;
+}
+
+th{
+    font-weight:bolder;
+}
+#output{
+    margin:30px;
+}
+
+form{
+    margin:20px 0 20px 0;
+    background-color:#f1f1ef;
+ 
+}
+#github{
+    flex-direction: column;
+    background-color:#ffffff;
+    opacity:0.8;
+    border:1px solid black;
+  
+}
+#profile{
+    margin:30px;
+}
+a{
+    text-decoration: underline;
+    color:red;
+    background-color: silver;
+    margin:0 30px 10px 30px;
+}
