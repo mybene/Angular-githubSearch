@@ -2,14 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
 
-import { NgProgressModule } from '@ngx-progressbar/core';
-import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
-// import { AccountService } from './account.service';
+import { NgProgressModule } from ' @ngx-progressbar/core';
+import { NgProgressHttpClientModule } from ' @ngx-progressbar/http-client';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AccountComponent } from './account/account.component';
 import { InputComponent } from './input/input.component';
-// import { HighligthedDirective } from './highligthed.directive';
 import { DateCountPipe } from './date-count.pipe';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -18,8 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     AccountComponent,
     InputComponent,
-    // AccountService,
-    // HighligthedDirective,
+  
     DateCountPipe 
   ],
   imports: [
@@ -28,7 +25,7 @@ import { HttpClientModule } from '@angular/common/http';
     NgProgressModule.forRoot(),
     NgProgressHttpClientModule,
     FormsModule,
-    // HttpClientModule
+    HttpClientModule
     
   ],
   providers: [],
