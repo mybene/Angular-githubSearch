@@ -5,7 +5,7 @@ By Manishimwe Benedicte
 
 This project was generated with Angular CLI version 8.2.2
  
-This IP is for searching a person's account on github where you could see the her/his repositories,all view profile
+This IP is for searching a person's account on github where you could see the her/his repositories, view all on his/her profile on github livelink.
 ## User requirements
 The User must have:
 * OS Ubuntu
